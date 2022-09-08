@@ -56,7 +56,7 @@ h2 {
 }
 
 
-.btn:link,
+ .btn:link,
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -66,34 +66,35 @@ h2 {
   transition: all .2s;
   margin-top: 5px;
 
-}
+} 
 
-.btn:hover {
+ .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
-.btn:active {
+ 
+ .btn:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-
-.btn-white {
+ 
+ .btn-white {
   background-color: #fff;
   color: #777;
-}
+} 
 
-.btn::after {
-  content: "";
+  .btn::after {
+   content: ""; 
   display: inline-block;
+
   border-radius: 100px;
-  position: absolute;
+  position: absolute; 
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all -2s;
-}
-
+  transition: all -1s;
+} 
+ 
 .btn-white::after {
   background-color: #fff;
 }
@@ -129,10 +130,6 @@ h2 {
 /* ==========================================================================
    5.0 - FOOTER SECTION 
    ========================================================================== */
-footer {
-  position: fixed;
-  bottom: 0;
-}
 
 .fn-footer {
 
