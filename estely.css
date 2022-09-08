@@ -14,16 +14,17 @@
   color: red;
 }
 
- .compartilhar a:hover {
+.compartilhar a:hover {
   text-decoration: none;
-} 
+}
 
 ul.compartilhar li {
   display: inline;
   margin: 0 5px;
   text-decoration: none;
 }
-.compartilhar i{
+
+.compartilhar i {
   width: 30px;
 }
 
@@ -85,14 +86,12 @@ h2 {
 .btn::after {
   content: "";
   display: inline-block;
-  height: 100%;
-  width: 100%;
   border-radius: 100px;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all .4s;
+  transition: all -2s;
 }
 
 .btn-white::after {
@@ -130,6 +129,10 @@ h2 {
 /* ==========================================================================
    5.0 - FOOTER SECTION 
    ========================================================================== */
+footer {
+  position: fixed;
+  bottom: 0;
+}
 
 .fn-footer {
 
@@ -155,16 +158,16 @@ ul.social-network li {
 }
 
 @media (max-width: 900px) {
+
   .btn:link,
-.btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 15px 100px;
-  display: inline-block;
-  border-radius: 100px;
-  transition: all .2s;
-  margin-top: 5px;
+  .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 100px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    margin-top: 5px;
 
+  }
 }
-}
-
